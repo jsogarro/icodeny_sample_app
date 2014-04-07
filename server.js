@@ -34,6 +34,12 @@ if ('development' === app.get('env')) {
 }
 
 // Routes
+app.get('/', home.index);
+app.get('/todos', todos.index);
+app.post('/todos/create', todos.create);
+app.get('/todos/destroy/:id', todos.delete);
+app.get('/todos/edit/:id', todos.edit);
+app.post('/todos/update/:id', todos.update);
 
 
 // Run our Node server
