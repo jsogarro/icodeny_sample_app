@@ -5,7 +5,7 @@
  `git clone https://github.com/jsogarro/icodeny_sample_app ` 
 2. cd into the **icodeny** folder and run the follwing command:  `npm install `
 3. After your packages finish installing run the following commands:  
-	`heroku create <your_name> `
+	`heroku create <your_app_name> `
 	
  	`heroku addons:add mongolab `
 
