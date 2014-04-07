@@ -5,14 +5,18 @@
  `git clone https://github.com/jsogarro/icodeny_sample_app ` 
 2. cd into the **icodeny** folder and run the follwing command:  `npm install `
 3. After your packages finish installing run the following commands:  
-<code>
-heroku create <your_name>  <br />
-heroku addons:add mongolab <br />
-git add -u . <br />
-git commit -m "deploying app" <br />
-git push heroku master <br />
-heroku open <br />
-</code>
+	`heroku create <your_name> `
+	
+ 	`heroku addons:add mongolab `
+
+ 	`git add -u . ` 
+
+ 	`git commit -m "deploying app" `
+
+ 	`git push heroku master `
+
+ 	`heroku open `
+
 6. If all goes well you should be able to view your site on the web.
 
 **Note:** feel free to update **views/home.ejs** and **public/css/stylesheets/style.css** to your liking. If you wish to run the server locally to see your changes before you push to Heroku, run the command  `node server.js ` and visit  `http://localhost:300 ` in your browser. 
